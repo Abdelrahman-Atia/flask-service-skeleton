@@ -15,7 +15,10 @@ A flask  restful API Skeleton
     ```
         $ pip install virtualenv
     ```
-* Git clone this repo to your PC
+* clone 
+    ```
+    git clone git@github.com:Abdelrahman-Atia/flask-service-skeleton.git
+    ```
 
 * #### Dependencies
     1. Cd into your the cloned repo as such:
@@ -68,7 +71,7 @@ A flask  restful API Skeleton
     flask run
     ```
 * #### Unit Testing
-    add your test file to the `specs` folder usiing the following pattern `filename_spec.py`
+    add your test file to the `specs` folder useing the following pattern `filename_spec.py`
 
     then on you terminal run 
     ```
