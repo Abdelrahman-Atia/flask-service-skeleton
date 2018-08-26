@@ -64,6 +64,7 @@ A flask  restful API Skeleton
     ```
     python manage.py db upgrade
     ```
+    Then each time the database models change repeat the migrate and upgrade commands.
 
 * #### Running It
     On your terminal, run the server using:
