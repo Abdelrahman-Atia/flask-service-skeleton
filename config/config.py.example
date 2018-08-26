@@ -1,0 +1,29 @@
+class Config(object):
+    """Parent configuration class."""
+    DEBUG = False
+    SQLALCHEMY_TRACK_MODIFICATIONS = False
+    SQLALCHEMY_DATABASE_URI = 'sqlite:///data.db'
+    CORE_URL = 'localhost:3000'
+
+
+class DevelopmentConfig(Config):
+    """Configurations for Development."""
+    DEBUG = True
+
+
+class TestingConfig(Config):
+    """Configurations for Testing."""
+    TESTING = True
+    DEBUG = True
+
+class ProductionConfig(Config):
+    """Configurations for Production."""
+    DEBUG = False
+    TESTING = False
+
+
+app_config = {
+    'development': DevelopmentConfig,
+    'testing': TestingConfig,
+    'production': ProductionConfig,
+}
