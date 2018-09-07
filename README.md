@@ -28,7 +28,7 @@ A flask  restful API Skeleton
 
     2. Create and fire up your virtual environment in python3:
         ```
-        $ virtualenv -p python venv
+        $ virtualenv -p python3.7 venv
         $ pip install autoenv
         ```
 
